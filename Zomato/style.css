@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #ebf2ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+.button_primary {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  margin: 10px;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+}
+
+.navbar {
+  position: sticky;
+  height: 80px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafc;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 9999;
+}
+
+.navbar_brand {
+  width: 100px;
+}
+
+.navbar_logo {
+  width: 100%;
+  margin: 25%;
+}
+
+.nav_item:hover {
+  border: 2px solid pink;
+}
+
+.hero_container .hero_image_container {
+  position: absolute;
+  width: 43%;
+  margin-left: 50%;
+}
+
+.hero_image_shape {
+  position: absolute;
+  width: 100%;
+}
+
+.hero_image {
+  margin-top: 2rem;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  border-radius: 6px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.hero_description {
+  font-size: 25px;
+  /* font-size: 1.875rem; */
+  line-height: 2.25rem;
+  color: #1d3557;
+  font-weight: 900;
+  box-sizing: border-box;
+  align-items: center;
+  width: 50%;
+  padding: 70px;
+  justify-content: space-around;
+  margin: 5%;
+  position: absolute;
+  margin-left: inherit;
+}
+
+.hero_text {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.prepare_container {
+  position: absolute;
+  width: 43%;
+  margin-top: 50%;
+  margin-left: 35%;
+}
+
+.prepare_image {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  position: absolute;
+  /* width: 100%; */
+  /* border-radius: 6px; */
+  z-index: 15;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.prepare_text_container {
+  position: absolute;
+  width: 43%;
+  margin-top: 50%;
+  margin-left: 35%;
+}
+
+.prepare_text {
+  color: #1d3557;
+  font-weight: 90;
+  position: absolute;
+  margin-top: 930px;
+  margin-left: 19%;
+  font-size: 20px;
+}
+
+.prepare_back {
+  height: 210px;
+  width: 307px;
+  margin-top: 15px;
+  margin-left: 2%;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+
+/* .features_container
+{ */
+
+/* width: 43%; */
+/* margin-left: 35%; */
+/* } */
+
+/* .features_container > .features_image_container
+{
+ margin-top: 1000px;
+ margin-left: 25px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 200px;
+ margin: 100px 0 0 0;
+} */
+
+/* .features_container .features_image_container > img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.features_text
+{
+  color: #1d3557;
+  font-weight: 900;
+  position: absolute;
+   margin-top: 30px;
+  font-size: 30px;
+  width: 300px;
+} */
+
+.features_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  margin-top: 1100px;
+  width: 100%;
+}
+
+.background_main .stack-top {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  position: absolute;
+  z-index: -1;
+  height: 540px;
+  width: 1150px;
+  margin-left: 100px;
+  rotate: -5deg;
+  margin-top: 1100px;
+  border-radius: 2px;
+}
+
+.features_container .one {
+  margin-bottom: 10px;
+}
+
+.features_container .one h1 {
+  font-size: 50px;
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.features_container .two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.features_container > .two > .img-one img,
+.img-three img {
+  height: 300px;
+  width: 300px;
+  /* margin-bottom: 50px; */
+  padding-top: 30px;
+}
+
+.features_container .two .img-two .mid-img img {
+  height: 280px;
+  width: 300px;
+  /* margin-bottom: 50px; */
+}
+
+.desc {
+  background: white;
+  margin-top: -5px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 0 5px 5px;
+}
+.desc h4 {
+  margin-left: 10px;
+}
+.desc p {
+  margin-left: 10px;
+}
+
+.para {
+  color: red !important;
+}
+
+.background-main {
+  background: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.orders {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 1750px;
+  margin-left: 15%;
+}
+
+.orders h1 {
+  color: #1d3557;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.orders .images img {
+  height: 100px;
+  width: 100px;
+}
+.orders .images .r1 {
+  width: 260px;
+  height: 120px;
+}
+.orders .images .r2 {
+  height: 180px;
+  width: 280px;
+}
+.orders .images .r3 {
+  height: 180px;
+  width: 280px;
+}
+.orders .images .r4 {
+  width: 260px;
+  height: 120px;
+  margin-bottom: 60px ;
+}
+
+.footer_container
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1900px;
+}
+
+.footer_text
+{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_text .text{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+input 
+{
+background-color: #FCE2DB;
+border-color: #dd2476;
+border-radius: 6px;
+width:280px;
+height:30px;
+}
+
+.footer_update
+{
+  margin-top: 35px;
+  
+}
